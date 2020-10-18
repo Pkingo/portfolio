@@ -1,8 +1,12 @@
+<script>
+import Project from "../components/Project.svelte";
+
+</script>
 <svelte:head>
 	<title>Philip Andreas Kingo</title>
 </svelte:head>
 
-<h1 class="mb-4">Hi! I'm Philip, and I'm a web developer</h1>
+<h1 class="text-3xl mb-4">Hi! I'm Philip, and I'm a web developer</h1>
 
 <p>I'm from Denmark, but currently I live in Czech Republic with my girlfriend to experience life abroad and learn from the talented people I get to work with here.</p>
 
@@ -15,6 +19,18 @@
 		I also develop back-end services done in NodeJS and making scripts for automating tasks. I'm not afraid to take on a hard challenge and dive into unknown territory.</p>
 	
 	<img class="rounded-full" src="images/profile.png" alt="Profile" width="450" height="450" >
+</div>
+
+<div class="mt-10">
+	<h2 class="text-2xl">Projects</h2>
+	<Project github="https://github.com/Pkingo/shopping-list" link="https://xn--brtspilsministeriet-mxb.dk/">
+		<h3 class="text-xl">Shopping list</h3>
+		<p>Small smalling list web-app using svelte, TailwindCSS and Google Firebase. It has authentication, you can create new shopping lists, and delete, finish and add new items to a shopping list</p>
+	</Project>
+	<Project github="https://github.com/Pkingo/portfolio" link="/">
+		<h3 class="text-xl">Portfolio</h3>
+		<p>This is acutlly this site. It is made using Sapper, TailwindCSS and Markdown files for each copy-pasta post made. </p>
+	</Project>
 </div>
 
 <br />
