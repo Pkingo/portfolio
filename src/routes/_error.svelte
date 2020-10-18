@@ -29,6 +29,7 @@
 
 <svelte:head>
 	<title>{status}</title>
+	<meta name="description" content="This is the error page">
 </svelte:head>
 
 <h1>{status}</h1>

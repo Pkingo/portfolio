@@ -11,6 +11,7 @@
 
 <svelte:head>
 	<title>Copy/Paste</title>
+	<meta name="description" content="Front-end JavaScript developer with a passion for React and Svelte">
 </svelte:head>
 
 <div class="p-3">

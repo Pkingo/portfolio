@@ -1,5 +1,6 @@
 <svelte:head>
 	<title>Contact</title>
+	<meta name="description" content="Front-end JavaScript developer with a passion for React and Svelte">
 </svelte:head>
 
 <h1>Contact</h1>
