@@ -12,7 +12,7 @@
 
 <div class="min-h-screen wrapper">
 	<Header />
-	<main class="m-10">
+	<main class="m-4 lg:m-10">
 		<slot></slot>
 	</main>
 	<Footer />
