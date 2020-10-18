@@ -1,6 +1,6 @@
 <footer class="bg-teal-900">
   <div class="max-auto py-12 px-3 sm:px-6 lg:px-8">
-    <div class="flex justify-between">
+    <div class="flex justify-between flex-col sm:flex-row">
       <div>
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <span class="font-semibold text-xl tracking-tight">Let's create something together</span>
