@@ -6,6 +6,10 @@
 </script>
 
 <style>
+  a {
+    text-decoration: none;
+    color: white;
+  }
   .code {
     color: transparent;
     transition: color 0.3s ease-out;

@@ -4,4 +4,4 @@
 
 <h1>Contact</h1>
 
-<p>This is the 'contact' page. There's not much here.</p>
+<p>Contact my via. <a href="https://linkedin.com/in/pkingo/" target="_blank">LinkedIn</a></p>
