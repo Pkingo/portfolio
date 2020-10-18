@@ -29,7 +29,7 @@
   :global(code) {
     background: #f4f4f4;
     border: 1px solid #ddd;
-    border-left: 3px solid #f36d33;
+    border-left: 3px solid #ED8936;
     color: #666;
     page-break-inside: avoid;
     font-family: monospace;
@@ -42,6 +42,11 @@
     display: block;
     word-wrap: break-word;
     margin-top: 2rem;
+  }
+
+  :global(a) {
+    text-decoration: underline;
+    color: #ED8936;
   }
 </style>
 
