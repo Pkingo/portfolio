@@ -1,0 +1,19 @@
+---
+title: Copy variable to clipboard
+summary: Copy to clipboard using JavaScript Navigation
+framework: JavaScript
+---
+
+Small code snippet on how to copy some text to the clipboard without using a text field. Based on [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
+
+```javascript
+const text = "Some text to copy";
+navigator.clipboard
+  .writeText(text)
+  .then(() => {
+    //Handle success
+  })
+  .catch(() => {
+    //Handle failure
+  });
+```
