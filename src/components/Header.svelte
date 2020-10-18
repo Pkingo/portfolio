@@ -6,7 +6,7 @@
 </script>
 
 <nav class="flex items-center justify-between flex-wrap bg-teal-900 p-6">
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
+  <div class="flex items-center flex-shrink-0 mr-6">
     <Link href="/">
       <span class="font-semibold text-xl tracking-tight">Philip Andreas Kingo</span>
     </Link>
@@ -18,10 +18,10 @@
   </div>
   <div class="w-full block flex-grow md:flex md:items-center md:w-auto {isExpanded ? '': 'hidden'}">
     <div class="text-sm md:flex md:justify-end md:flex-grow">
-      <Link href="/pasta" classes="block mt-4 md:inline-block md:mt-0 text-white mr-4">
+      <Link href="/pasta" classes="block mt-4 md:inline-block md:mt-0 mr-4">
         Copy/Paste
       </Link>
-      <Link href="/contact" classes="block mt-4 md:inline-block md:mt-0 text-white">
+      <Link href="/contact" classes="block mt-4 md:inline-block md:mt-0">
         Contact
       </Link>
     </div>
