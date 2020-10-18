@@ -2,6 +2,7 @@
   import { fade } from 'svelte/transition';
   export let href;
   export let target = "_self";
+  export let classes = "";
 </script>
 
 <style>
@@ -15,7 +16,7 @@
   }
 </style>
 
-<a class="link" target={target} href={href}>
+<a class={classes + " link"} target={target} href={href}>
   <span transition:fade class="code">{"<"}</span>
     <slot></slot>
   <span transition:fade class="code">{"/>"}</span>

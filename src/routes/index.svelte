@@ -1,4 +1,8 @@
-<h1 class="mb-4">Hi, I'm Philip, and I'm a web develop</h1>
+<svelte:head>
+	<title>Philip Andreas Kingo</title>
+</svelte:head>
+
+<h1 class="mb-4">Hi! I'm Philip, and I'm a web developer</h1>
 
 <p>I'm from Denmark, but currently I live in Czech Republic with my girlfriend to experience life abroad and learn from the talented people I get to work with here.</p>
 

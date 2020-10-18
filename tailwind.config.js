@@ -1,14 +1,8 @@
 module.exports = {
-  purge: [
-    './src/**/*.svelte',
-  ],
-  variants: {},
+  purge: ["./src/**/*.svelte"],
   theme: {
-    extend: {}
+    extend: {},
   },
+  variants: {},
   plugins: [],
-  future: {
-      removeDeprecatedGapUtilities: true,
-      purgeLayersByDefault: true,
-  },
-}
+};
