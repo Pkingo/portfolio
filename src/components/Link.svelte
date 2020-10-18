@@ -15,7 +15,7 @@
     color: white;
   }
   .link-orange {
-    color: #ED8936;
+    color: #C05621;
   }
   .code {
     color: transparent;
@@ -26,11 +26,11 @@
     color: white;
   }
   .link:hover .code-orange {
-    color: #ED8936;
+    color: #C05621;
   }
 </style>
 
-<a class={`link link-${color} ${classes}`} target={target} href={href}>
+<a class={`link link-${color} py-3 ${classes}`} target={target} rel="noopener noreferrer" href={href}>
   <span transition:fade class={`code code-${color}`}>{"<"}</span>
     <slot></slot>
   <span transition:fade class={`code code-${color}`}>{"/>"}</span>
