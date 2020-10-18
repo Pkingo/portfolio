@@ -21,7 +21,7 @@
 </div>
 
 {#each pastas as pasta}
-<article class="border-transparent border-l-4 hover:border-orange-500 p-2 max-w-xs">
+<article class="border-transparent border-l-4 hover:border-orange-700 p-2 max-w-xs">
 	<a href={`/pasta/${pasta.permalink}`}>
 		<p class="font-bold">{pasta.title}</p>
 		<p class="font-light text-gray-600 truncate max-w-2xl">{pasta.summary}</p>

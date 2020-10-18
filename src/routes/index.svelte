@@ -4,6 +4,7 @@ import Project from "../components/Project.svelte";
 </script>
 <svelte:head>
 	<title>Philip Andreas Kingo</title>
+	<meta description="Front-end JavaScript developer with a passion for React and Svelte" />
 </svelte:head>
 
 <h1 class="text-3xl mb-4">Hi! I'm Philip, and I'm a web developer</h1>
