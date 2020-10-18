@@ -8,7 +8,8 @@
 </script>
 
 <svelte:head>
-	<title>Copy/Paste</title>
+	<title>{pasta.title}</title>
+  <meta name="description" content="Front-end JavaScript developer with a passion for React and Svelte">
 </svelte:head>
 
 <script>
