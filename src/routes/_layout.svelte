@@ -1,8 +1,6 @@
 <script>
 	import Header from '../components/Header.svelte';
 	import Footer from '../components/Footer.svelte';
-
-	export let segment;
 </script>
 
 <style>
@@ -14,7 +12,7 @@
 
 <div class="min-h-screen wrapper">
 	<Header />
-	<main class="m-4 lg:m-10">
+	<main class="mx-6 md:mx-auto md:max-w-xl my-8">
 		<slot></slot>
 	</main>
 	<Footer />

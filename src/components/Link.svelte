@@ -30,7 +30,7 @@
   }
 </style>
 
-<a class={`link link-${color} py-3 ${classes}`} target={target} rel="noopener noreferrer" href={href}>
+<a class={`link link-${color} py-2 ${classes}`} target={target} rel="noopener noreferrer" href={href}>
   <span transition:fade class={`code code-${color}`}>{"<"}</span>
     <slot></slot>
   <span transition:fade class={`code code-${color}`}>{"/>"}</span>

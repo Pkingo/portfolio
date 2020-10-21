@@ -1,5 +1,4 @@
-<footer class="bg-teal-900">
-  <div class="max-auto py-12 px-3 sm:px-6 lg:px-8">
+<footer class="bg-teal-900 p-6">
     <div class="flex justify-between flex-col sm:flex-row">
       <div>
         <div class="flex items-center flex-shrink-0 text-white mr-6">
@@ -19,5 +18,4 @@
       </div>
     </div>
     <div class="mt-4 border-t border-white pt-4"><p class="leading-6 text-white xl:text-center text-sm">Made by Philip Anderas Kingo with Svelte and Sapper ❤️</p></div>
-  </div>
 </footer>

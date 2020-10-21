@@ -593,6 +593,10 @@ ul {
   list-style-type: disc;
 }
 
+p {
+  text-align: justify;
+}
+
 @font-face {
   font-family: Proxima Nova;
 
