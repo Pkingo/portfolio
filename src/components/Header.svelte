@@ -2,7 +2,7 @@
   let isExpanded = false;
   import Link from './Link.svelte';
 
-	const toggleExpand = () => isExpanded = !isExpanded
+  const toggleExpand = () => isExpanded = !isExpanded;
 </script>
 
 <nav class="flex items-center justify-between flex-wrap bg-teal-900 p-6">
@@ -17,11 +17,11 @@
     </button>
   </div>
   <div class="w-full block flex-grow md:flex md:items-center md:w-auto {isExpanded ? '': 'hidden'}">
-    <div class="text-sm md:flex md:justify-end md:flex-grow">
-      <Link href="/pasta" classes="block mt-4 md:inline-block md:mt-0 mr-4">
+    <div class="md:flex md:justify-end md:flex-grow gap-4">
+      <Link href="/pasta" classes="block md:inline-block">
         Copy/Paste
       </Link>
-      <Link href="/contact" classes="block mt-4 md:inline-block md:mt-0">
+      <Link href="/contact" classes="block md:inline-block">
         Contact
       </Link>
     </div>
